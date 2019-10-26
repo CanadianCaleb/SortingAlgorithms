@@ -32,9 +32,6 @@ for i in range(1, limit + 1) :
 random.shuffle(randNums) #randomizes the numbers
 tiOneOne = time.perf_counter()
 
-
-
-
 input()
 
 for i in range(0, limit - 1) : #main loop of sort
