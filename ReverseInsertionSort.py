@@ -39,7 +39,6 @@ for i in range(0, limit - 1) : #main loop of sort
 
     tiOne = time.perf_counter() #starts timer
 
-
     if randNums[i] > randNums[i + 1] : #compares current number to next
       numCheckOne = randNums[i]
       numCheckTwo = randNums[i+1]
