@@ -55,7 +55,7 @@ for i in range(0, limit - 1) : #main loop of sort
       tiTwo = time.perf_counter() - tiOne
 
       print(randNums)
-      clear() #constantly prints the numbers
+      clear() #constantly prints the numbers, without this, the script would be much more efficient in time saving, but doing this is not included in the averages, just the total time.
       print("\n")
 
       if tiTwo > greatestTime : #records longest time
